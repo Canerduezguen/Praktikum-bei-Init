@@ -37,5 +37,23 @@ hr.light {
 
 // Page section padding
 .page-section {
-  padding: 8rem 0;
+  padding: 5rem 0;
+}
+
+section {
+  p {
+    font-size: 13pt;
+  }
+
+  &.tagesablauf {
+    padding-top: 0;
+  }
+
+  .hallo {
+    background: red;
+  }
+}
+
+.bg-dark {
+  color: white;
 }
